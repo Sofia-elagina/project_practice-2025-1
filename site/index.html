@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Проект 3D-карта</title>
+  <link rel="stylesheet" href="http://prs/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О проекте</a></li>
+          <li><a href="index.html#participants">Участники</a></li>
+          <li><a href="index.html#journal">Журнал</a></li>
+          <li><a href="resources.html">Ресурсы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="overview" class="section">
+        <h1>Создание 3D-карты корпусов Московского Политеха для 2ГИС</h1>
+        <p>Точный 3D-тур по кампусу Московского Политеха — новый удобный инструмент для студентов и гостей. Интерактивная карта интегрирована в 2ГИС, помогая быстро ориентироваться в пространстве и находить нужные корпуса.</p>
+        </section>
+      
+
+      <section id="participants" class="section">
+        <h2>Участники</h2>
+        <ul class="participants-list">
+          <li><strong>Елагина София Андреевна: </strong> Сбор архитектурных планов и чертежей; уточнение планов и размеров помещений. Моделирование с помощью Blender. </li>
+        </ul>
+      </section>
+
+      <section id="journal" class="section">
+        <h2>Журнал</h2>
+        <article class="post">
+          <h3>1 апреля 2025</h3>
+          <p>Завершено первичное моделирование фасадов корпусов и экспорт в формат glTF.</p>
+        </article>
+        <article class="post">
+          <h3>15 апреля 2025</h3>
+          <p>Настроена навигация по этажам и реализован выбор здания на карте.</p>
+        </article>
+        <article class="post">
+          <h3>1 мая 2025</h3>
+          <p>Проведена оптимизация загрузки модели и внедрён lazy-loading для текстур.</p>
+        </article>
+      </section>
+      <!-- Галерея -->
+    <section id="gallery" class="section gallery-section">
+    <h2>Галерея</h2>
+    <div class="gallery-grid">
+        <!-- Фото -->
+        <div class="gallery-item">
+        <img src="http://prs/image1.jpg" alt="Вид кампуса с высоты">
+        </div>
+        <div class="gallery-item">
+        <img src="http://prs/image2.jpg" alt="Интерьер корпуса">
+        </div>
+        <div class="gallery-item">
+        <img src="http://prs/image3.jpg" alt="3D-модель здания">
+        </div>
+        <!-- Видео (растягивается на 3 колонки) -->
+        <div class="gallery-item video-item">
+        <video controls>
+            <source src="http://prs/video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        </div>
+    </div>
+    </section>
+
+
+    </main>
+    <footer>
+      <p>&copy; 2025 Команда 3D-карты</p>
+    </footer>
+  </div>
+</body>
+</html>
